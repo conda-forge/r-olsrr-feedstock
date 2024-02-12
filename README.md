@@ -3,6 +3,7 @@ About r-olsrr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-olsrr-feedstock/blob/main/LICENSE.txt)
 
+
 About r-olsrr
 -------------
 
@@ -11,6 +12,7 @@ Home: https://olsrr.rsquaredacademy.com/, https://github.com/rsquaredacademy/ols
 Package license: MIT
 
 Summary: Tools designed to make it easier for users, particularly beginner/intermediate R users to build ordinary least squares regression models. Includes comprehensive regression output, heteroskedasticity tests, collinearity diagnostics, residual diagnostics, measures of influence, model fit assessment and variable selection procedures.
+
 About r-olsrr
 -------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
