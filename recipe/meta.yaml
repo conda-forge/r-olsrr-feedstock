@@ -1,4 +1,4 @@
-{% set version = '0.5.3' %}
+{% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/olsrr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/olsrr/olsrr_{{ version }}.tar.gz
-  sha256: 1e71ca86b4f6a5b8c3fa448ae9ab39d20393befc776d72d9bffa7af0c1920166
+  sha256: 26e3895721b152df17be24cf12727d932a1b3eab8c3b54d24ee43d99633bd7ca
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -58,10 +58,8 @@ test:
 about:
   home: https://olsrr.rsquaredacademy.com/, https://github.com/rsquaredacademy/olsrr
   license: MIT
-  summary: Tools designed to make it easier for users, particularly beginner/intermediate R users
-    to build ordinary least squares regression models. Includes comprehensive regression
-    output, heteroskedasticity tests, collinearity diagnostics, residual diagnostics,
-    measures of influence, model fit assessment and variable selection procedures.
+  summary: Tools designed to make it easier for users, particularly beginner/intermediate R users to build ordinary least squares regression models. Includes comprehensive regression output, heteroskedasticity tests, collinearity diagnostics, residual diagnostics, measures of influence, model fit assessment and variable
+    selection procedures.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
