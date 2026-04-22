@@ -1,4 +1,4 @@
-{% set version = "0.6.1" %}
+{% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/olsrr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/olsrr/olsrr_{{ version }}.tar.gz
-  sha256: e97298d8b640c61ea0cc3193a29011ea8dad3c2953b76bcda896afb0d4447f43
+  sha256: 0924b1f229874bd6c7cf8150f1ad84e9598e8b5aeec8a89af953a29700678655
 
 build:
   noarch: generic
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -47,8 +47,8 @@ about:
   home: https://olsrr.rsquaredacademy.com/
   dev_url: https://github.com/rsquaredacademy/olsrr
   license: MIT
-  summary: Tools designed to make it easier for users, particularly beginner/intermediate R users to build ordinary least squares regression models. Includes comprehensive regression output, heteroskedasticity tests, collinearity diagnostics, residual diagnostics, measures of influence, model fit assessment and variable
-    selection procedures.
+  summary: Tools designed to make it easier for users, particularly beginner/intermediate R users to build ordinary least squares regression models. Includes comprehensive regression output, heteroskedasticity tests, collinearity diagnostics, residual diagnostics, measures of influence, model fit assessment and 
+    variable selection procedures.
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
