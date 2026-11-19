@@ -1,4 +1,4 @@
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/olsrr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/olsrr/olsrr_{{ version }}.tar.gz
-  sha256: 0924b1f229874bd6c7cf8150f1ad84e9598e8b5aeec8a89af953a29700678655
+  sha256: b003782621e1ba6847395ccd987752af6a7acfc5f6fcee873598968fe4f027dc
 
 build:
   noarch: generic
